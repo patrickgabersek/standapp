@@ -8,3 +8,5 @@ How to set up
 3.open index.html
 
 4.bookmark the page in your browser
+
+NOTE: if you delete your browser search history, records will be deleted
