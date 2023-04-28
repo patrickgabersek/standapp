@@ -1,12 +1,23 @@
-# standapp for pc
-How to set up
+# standapp
+<h1> Hey there! 👋 </h1>
+<h2> This is my pc app for focusing </h2>
 
-1.right click the code button on github and download zip
+<h3>🛠 How to set up</h3>
 
-2.extract the zip file on your Desktop
+-  &nbsp; Click on the code button on github
+-  &nbsp; Download zip file
+-  &nbsp; Extract the folder from the zip file onto your Desktop
+-  &nbsp; Click on the index.html
+-  &nbsp; Bookmark the page in your web browser
+-  &nbsp; Enjoy
 
-3.open index.html
+<h3> 👨🏻‍💻 About the app </h3>
 
-4.bookmark the page in your browser
+-  &nbsp; By clicking on the timer you can change the amount of minutes
+-  &nbsp; By clicking going slow you can change the speed of the timer
+-  &nbsp; End day button will add current day focus amount to the total data
+-  &nbsp; Data for a current day get saved automatically at 0:00
 
-NOTE: if you delete your browser search history, records will be deleted
+
+
+
