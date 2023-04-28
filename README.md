@@ -16,7 +16,7 @@
 -  &nbsp; By clicking on the timer you can change the amount of minutes
 -  &nbsp; By clicking going slow you can change the speed of the timer
 -  &nbsp; End day button will add current day focus amount to the total data
--  &nbsp; Data for a current day get saved automatically at 0:00
+-  &nbsp; Data for a current day gets automatically saved at 0:00
 
 
 
