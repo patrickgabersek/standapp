@@ -1,4 +1,4 @@
-# standapp
+# standapp desktop app
 How to set up
 
 1.right click the code button on github and download zip
