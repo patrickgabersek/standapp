@@ -1,8 +1,10 @@
 # standapp
 How to use
 
-1.download all the files into a folder
+1.click on code and download zip
 
-2.Open index.html
+2. extract the zip file on your Desktop
 
-3.Bookmark the page in your browser
+3.Open index.html
+
+4.Bookmark the page in your browser
