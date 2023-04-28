@@ -1,0 +1,67 @@
+* {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.timer {
+  display: grid;
+  width: 19rem;
+}
+
+.timer1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.timer2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.timer__focus-timer__timeLeft {
+  font-size: 1.5rem;
+}
+
+.timer__break-timer__timeLeft {
+  font-size: 1.5rem;
+}
+
+.timer__focus-timer__changeMinutesAmount {
+  margin-bottom: 0.3rem;
+  width: 7.8rem;
+}
+
+.timer__break-timer__changeMinutesAmount {
+  margin-bottom: 0.3rem;
+  width: 7.8rem;
+}
+
+.control-panel {
+  margin-top: 2rem;
+}
+.stats__creativity {
+  display: border-box;
+  border-top: 1px solid grey;
+  margin: 2rem 0 4rem;
+  width: 17rem;
+}
+
+.stats__workout {
+  margin: 2rem 0 2.5rem;
+}
+
+.stats__read {
+  margin: 2rem 0 2.5rem;
+}
+
+.stats__nut {
+  margin: 2rem 0 2.5rem;
+}
+
+.stats__sleep {
+  margin: 2rem 0 2.5rem;
+}

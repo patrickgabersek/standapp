@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title class="title">00:00:00</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="timer">
+        <div class="timer1">
+          <div class="timer__focus-timer">
+            <span class="timer__focus-timer__timeLeft"> 00:00:00 </span>
+            <input
+              hidden
+              type="text"
+              class="timer__focus-timer__changeMinutesAmount"
+            />
+          </div>
+
+          <div cass="timer__btn">
+            <button type="submit" class="timer__btn__onoff">focus on</button>
+            <button type="submit" class="timer__btn__reset">
+              <span class="timer__btn__reset__text"> reset </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="timer2">
+          <div class="timer__break-timer">
+            <span class="timer__break-timer__timeLeft"> 00:00:00 </span>
+            <input
+              hidden
+              type="text"
+              class="timer__break-timer__changeMinutesAmount"
+            />
+          </div>
+
+          <div cass="timer__break__btn">
+            <button type="submit" class="timer__break__btn__onoff">
+              break on
+            </button>
+            <button type="submit" class="timer__break__btn__reset">
+              <span class="timer__break__btn__reset__text"> reset </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="dailyInformation">
+        <div class="dailyInformation__box">
+          <div class="dailyInformation__box__expressing">
+            <p class="dailyInformation__box__expressing__title">
+              <span class="dailyInformation__box__expressing__focusData">
+                00
+              </span>
+            </p>
+          </div>
+
+          <div class="dailyInformation__box__expressing-total">
+            <p class="dailyInformation__box__expressing-total__title">
+              TOTAL:
+              <span class="dailyInformation__box__expressing-total__totalData">
+                00
+              </span>
+
+              <span
+                class="dailyInformation__box__expressing-total__formattedTotalData"
+              ></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="control-panel">
+        <p class="control-panel__title">CONTROL PANEL</p>
+
+        <div class="control-panel__buttons">
+          <div class="control-panel__buttons__speed">
+            <button type="submit" class="control-panel__buttons__speed__btn">
+              going slow
+            </button>
+          </div>
+
+          <!--  add new Records here -->
+          <div class="control-panel__buttons__workout">
+            <p>Workout</p>
+            <button type="submit" class="control-panel__buttons__workout--yes">
+              yes
+            </button>
+            <button type="submit" class="control-panel__buttons__workout--no">
+              no
+            </button>
+          </div>
+
+          <div class="control-panel__buttons__read">
+            <p>Read</p>
+            <button type="submit" class="control-panel__buttons__read--yes">
+              yes
+            </button>
+            <button type="submit" class="control-panel__buttons__read--no">
+              no
+            </button>
+          </div>
+
+          <div class="control-panel__buttons__nut" hidden>
+            <p>No nut November (yes means still clean)</p>
+            <button type="submit" class="control-panel__buttons__nut--yes">
+              yes
+            </button>
+            <button type="submit" class="control-panel__buttons__nut--no">
+              no
+            </button>
+          </div>
+
+          <div class="control-panel__buttons__sleep" hidden>
+            <p>Sleep (min 8 hours)</p>
+            <button type="submit" class="control-panel__buttons__sleep--yes">
+              yes
+            </button>
+            <button type="submit" class="control-panel__buttons__sleep--no">
+              no
+            </button>
+          </div>
+
+          <div class="control-panel__buttons__kill">
+            <p class="control-panel__buttons__kill__title">End day</p>
+            <button type="submit" class="control-panel__buttons__kill__endDay">
+              end day
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stats__creativity">
+          <p class="stats__creativity__title">Focus</p>
+
+          <div class="stats__creativity__time-table"></div>
+        </div>
+
+        <!--  add new Records here -->
+        <div class="stats__workout">
+          <p class="stats__workout__title">
+            Workout &nbsp; ////////////////////////////////////////
+          </p>
+
+          <div class="stats__workout__time-table"></div>
+        </div>
+
+        <div class="stats__read">
+          <p class="stats__read__title">
+            Read &nbsp; ////////////////////////////////////////
+          </p>
+
+          <div class="stats__read__time-table"></div>
+        </div>
+
+        <div class="stats__nut" hidden>
+          <p class="stats__nut__title">
+            No porn &nbsp; ////////////////////////////////////////
+          </p>
+
+          <div class="stats__nut__time-table"></div>
+        </div>
+
+        <div class="stats__sleep" hidden>
+          <p class="stats__sleep__title">
+            Sleep &nbsp; ////////////////////////////////////////
+          </p>
+
+          <div class="stats__sleep__time-table"></div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
