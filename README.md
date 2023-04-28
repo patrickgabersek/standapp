@@ -1,7 +1,8 @@
 # standapp
-helps you focus
 How to use
 
-download all the files into a folder
-Open index.html
-Bookmark the page in your browser
+1.download all the files into a folder
+
+2.Open index.html
+
+3.Bookmark the page in your browser
