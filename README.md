@@ -18,6 +18,7 @@
 -  &nbsp; End day button will add current day focus amount to the total data
 -  &nbsp; Data for a current day gets automatically saved at 0:00
 
-⭐️ NOTE = by deleting your browser search history will delete all records
+<br> </br>
+⭐️ NOTE = deleting your browser search history will delete all records
 
 
