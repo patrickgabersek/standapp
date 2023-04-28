@@ -1,5 +1,5 @@
 # standapp
-How to use
+How to set up
 
 1.click on code and download zip
 
